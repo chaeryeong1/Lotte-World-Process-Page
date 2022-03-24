@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotte World Process Page-송채령</title>
+    <!--이미지로드-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <!-- 제이쿼리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- 테일윈드 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+
+  <!--애니메이션,와우-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script> new WOW().init();</script>
+</head>
+<body>
+    <style>
+        /* 폰트적용 */
+@font-face {
+    font-family: 'LeferiBaseType-RegularA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html > body {
+  font-family: "LeferiBaseType-RegularA";
+}
+
+/*커스텀 라이브러리*/
+*{
+  padding:0;
+  margin:0;
+}
+
+.con{
+  width:1920px;
+  height:auto;
+  margin:0 auto;
+}
+
+@media ( min-width: 1900px ) {
+  body { overflow-x:hidden; }
+}
+
+/*뜨는애니메이션 라이브러리*/
+
+.festival-snoow,.attraction-1-1,.enjoy-2-1{
+  animation-name: infinite-01 ;
+  animation-duration: 6s;
+  animation-iteration-count: infinite ;
+  animation-timing-function: linear ; 
+}
+
+
+@keyframes infinite-01{
+  0%{
+    transform: translatey(0) ;
+  }
+  
+  50%{
+    transform: translatey(-5%);    
+  }
+  
+  100%{
+    transform: translatey(0);    
+  }
+  
+}
+
+.lotteworld-process{
+  background-image:url('https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/process-bgg.png');
+  width:1920px;
+  height:16219px;
+}
+.lotteworld-process-1__1{
+  top:811px;
+  left:843px;
+}
+.lotteworld-process-1__2{
+   top:872px;
+  left:50px;
+}
+.lotteworld-process-1-1{
+  top:975px;
+  left:829px;
+}
+
+.lotteworld-process-1-2{
+  top:1288px;
+  left:296px;
+}
+
+.lotteworld-process-2-1{
+  top:1582px;
+  left:761px;
+}
+
+.lotteworld-process-2-2{
+  top:2070px;
+  left:690px;
+}
+.lotteworld-process-2-3{
+  top:2072px;
+  left:1119px;
+}
+.lotteworld-process-2-4{
+  top:2072px;
+  left:625px;
+}
+.lotteworld-process-2-5{
+  top:1902px;
+  left:1200px;
+}
+.lotteworld-process-2-6{
+  top:1902px;
+  left:32px;
+}
+
+.lotteworld-process-3-1{
+  left:100px;
+    top:3242px;
+}
+.lotteworld-process-3-2{
+  left:280px;
+    top:3550px;
+}
+.lotteworld-process-3-3{
+  left:288px;
+    top:3976px;
+}
+
+.lotteworld-process-4-1{
+  left:799px;
+    top:4637px;
+}
+
+.lotteworld-process-4-2{
+  left:38px;
+    top:4914px;
+}
+
+.lotteworld-process-5-1{
+  left:1348px;
+    top:6266px;
+}
+.lotteworld-process-5-2{
+  left:40px;
+    top:6570px;
+}
+
+.lotteworld-process-6-1{
+  left:168px;
+    top:7372px;
+}
+
+.lotteworld-process-6-2{
+  left:752px;
+    top:7447px;
+}
+.lotteworld-process-6-3{
+  left:277px;
+    top:7745px;
+}
+
+.lotteworld-process-7-1 {
+  left:100px;
+    top:8515px;
+}
+
+.lotteworld-process-7-2 {
+  left:450px;
+    top:8825px;
+  z-index:1;
+}
+.lotteworld-process-7-3 {
+  left:100px;
+    top:8867px;
+}
+
+.lotteworld-process-7-4 {
+  left:100px;
+    top:9397px;
+}
+.lotteworld-process-7-5 {
+  left:100px;
+    top:9744px;
+}
+.lotteworld-process-7-6 {
+  left:100px;
+    top:10244px;
+}
+.lotteworld-process-7-7 {
+  left:100px;
+    top:10982px;
+}
+.lotteworld-process-7-8 {
+  left:100px;
+    top:11860px;
+}
+
+.lotteworld-process-8-1{
+  left:162px;
+    top:12240px;
+}
+.lotteworld-process-8-2{
+  left:758px;
+    top:12323px;
+}
+.lotteworld-process-8-3{
+  left:140px;
+    top:12650px;
+}
+.lotteworld-process-8-4{
+  left:933px;
+    top:13303px;
+}
+.lotteworld-process-8-5{
+  left:140px;
+    top:14085px;
+}
+
+.lotteworld-process-9-1{
+  left:852px;
+    top:15677px;
+}
+
+.lotteworld-process-9-2{
+  left:567px;
+    top:15867px;
+}
+.lotteworld-process-9-3{
+  left:784px;
+    top:16071px;
+}
+    </style>
+    <div class="con">
+        <section class="lotteworld-process">
+          <div class="lotteworld-process-1 relative">
+             <span class="lotteworld-process-1__1 absolute wow fadeInUp"><a href="https://l.crmmii.com"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/1-botton.png" alt=""></a></span>
+            <span class="lotteworld-process-1__2 absolute wow fadeInLeft"data-wow-delay="0.2s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/1-2.png" alt=""></span>
+            <span class="lotteworld-process-1-1 absolute wow fadeInDown"data-wow-delay="0.6s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/1.1-1.png" alt=""></span>
+            <span class="lotteworld-process-1-2 absolute wow fadeInDown"data-wow-delay="0.9s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/1.1-22.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-2 relative">
+            <span class="lotteworld-process-2-1 wow fadeInDown absolute"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-1.png" alt=""></span>
+              <span class="lotteworld-process-2-2 wow fadeIn absolute"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-2.png" alt=""></span>
+             <span class="lotteworld-process-2-3 wow fadeInRight absolute"data-wow-delay="0.2s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-3.png" alt=""></span>
+             <span class="lotteworld-process-2-4 wow fadeInLeft absolute"data-wow-delay="0.2s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-4.png" alt=""></span>
+              <span class="lotteworld-process-2-5 wow fadeInRight absolute"data-wow-delay="0.5s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-5.png" alt=""></span>
+            <span class="lotteworld-process-2-6 wow fadeInLeft absolute"data-wow-delay="0.5s"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/2-6.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-3 relative">
+           <span class="lotteworld-process-3-1 absolute wow fadeInDown">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/3-1.png" alt="">
+           </span>
+            <span class="lotteworld-process-3-2 absolute wow fadeInDown">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/3-2.png" alt="">
+           </span>
+             <span class="lotteworld-process-3-3 absolute wow fadeInDown">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/3-3.png" alt="">
+           </span>
+          </div>
+          <div class="lotteworld-process-4 relative">
+            <span class="lotteworld-process-4-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/4-1.png" alt=""></span>
+            <span class="lotteworld-process-4-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/4-2.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-5 relative">
+             <span class="lotteworld-process-5-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/5-1.png" alt=""></span>
+              <span class="lotteworld-process-5-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/5-2.png" alt=""></span>
+            
+          </div>
+          <div class="lotteworld-process-6 relative">
+            <span class="lotteworld-process-6-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/6-1.png" alt=""></span>
+            <span class="lotteworld-process-6-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/6-2.png" alt=""></span>
+             <span class="lotteworld-process-6-3 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/6-3.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-7 relative">
+            <span class="lotteworld-process-7-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-1.png" alt=""></span>
+            <span class="lotteworld-process-7-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-2.png" alt=""></span>
+            <span class="lotteworld-process-7-3 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-3.png" alt=""></span>
+             <span class="lotteworld-process-7-4 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-4.png" alt=""></span>
+           <span class="lotteworld-process-7-5 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-5.png" alt=""></span>
+            <span class="lotteworld-process-7-6 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-6.png" alt=""></span>
+            <span class="lotteworld-process-7-7 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-7.png" alt=""></span>
+            <span class="lotteworld-process-7-8 absolute wow fadeInLeft"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/7-8.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-8 relative">
+            <span class="lotteworld-process-8-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/8-1.png" alt=""></span>
+            <span class="lotteworld-process-8-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/8-2.png" alt=""></span>
+            <span class="lotteworld-process-8-3 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/8-3.png" alt=""></span>
+              <span class="lotteworld-process-8-4 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/8-4.png" alt=""></span>
+            <span class="lotteworld-process-8-5 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/8-5.png" alt=""></span>
+          </div>
+          <div class="lotteworld-process-9 relative">
+            <span class="lotteworld-process-9-1 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/9-1.png" alt=""></span>
+             <span class="lotteworld-process-9-2 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/9-2.png" alt=""></span>
+            <span class="lotteworld-process-9-3 absolute wow fadeInDown"><img src="https://cdn.jsdelivr.net/gh/chaeryeong1/lotteworld/process/9-3.png" alt=""></span>
+          </div>
+        </section>
+        
+      </div>
+</body>
+</html>
